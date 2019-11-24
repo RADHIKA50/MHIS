@@ -1,0 +1,97 @@
+@CHARSET "ISO-8859-1";
+
+#align-center{
+	text-align:center;
+}
+b{
+	text-align:center;
+}
+
+h3{
+	text-align:center;
+}
+
+#user-login{
+	background-color: #4ACDD1;
+	text-align:center;
+	border-bottom: 2px solid white;
+	height: 50px;
+	padding:3px;
+	
+}
+
+#login-form{
+	background-color: #4ACDD1 ;
+}
+
+#input{
+	margin:20px 0;
+}
+
+#logo{
+	text-align:center;
+}
+#button{
+	width:100%;
+}
+.image{
+	margin-top:4px;
+	border-radius:50px;
+	height:70px;
+}
+#containers{
+	background-color:white;
+	min-height:550px;
+	padding:10px;
+	overflow:auto;
+}
+.inner-addon { 
+    position: relative; 
+}
+
+/* style icon */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+#accountArea
+{
+  position: absolute;
+  top: 112px;
+  right: 17px;
+  padding: 18px 30px 18px 0;
+  font-size: 17px;
+  margin-right:113px;
+}
+
+--- Footer
+============================ */
+
+footer {
+    background-color: #f2f2f2;
+}
+
+footer {
+	padding: 50px 0 0;
+	
+}
+
+footer .widget {
+	margin-bottom: 30px;
+}
+
+footer .widget h5 {
+	font-size: 20px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+
+/* align icon */
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
